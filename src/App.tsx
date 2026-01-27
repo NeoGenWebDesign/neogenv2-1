@@ -62,7 +62,7 @@ function App() {
           <div className="project-card">
             <div className="project-icon">🌐</div>
             <div className="project-info">
-              <h3>JavaScitp Arcade</h3>
+              <h3>JavaScript Arcade</h3>
               <p>A free platform dedicated to bringing you a collection of classic arcade games reimagined with modern JavaScript technology.</p>
               <a href="https://javascriptarcade.netlify.app/" className="project-link">View Project</a>
             </div>
