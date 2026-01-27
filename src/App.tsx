@@ -6,7 +6,7 @@ function App() {
     <div className="neo-root">
       {/* Header / Hero Section */}
       <header className="neo-hero">
-        <img url="src/assets/neogenlogo2.png" alt="neogen logo" className="neo-logo"/>
+        <img href="https://i.ibb.co/35QxFQSp/neogenlogo2.png/" alt="neogen logo" className="neo-logo"/>
         <h1 className="neo-title">neogen web design</h1>
         <h2 className="neo-subtitle">Modern. Interactive. Intelligent.</h2>
         <div className="neo-socials">
