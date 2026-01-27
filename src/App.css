@@ -1,0 +1,273 @@
+.neo-projects {
+  width: 100%;
+  max-width: 1100px;
+  margin: 1rem;
+  padding: 0 0.5rem;
+  text-align: center;
+}
+.neo-projects h2 {
+  color: #bf007f;
+  text-shadow: 0 0 10px #6d0256;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: -1px;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+.project-card {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px 0 #0001, 0 1.5px 0 #e0e0e0;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 180px;
+  border: 2.5px dashed #e0e0e0;
+  transition: box-shadow 0.2s, border 0.2s, transform 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+.project-card:hover {
+  box-shadow: 0 8px 32px 0 #00a2bfe5, 0 1.5px 0 #e0e0e0;
+  border: 2.5px solid #bf007f;
+  transform: translateY(-4px) scale(1.03) rotate(-1deg);
+}
+.project-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #bf007f;
+  filter: drop-shadow(0 0 8px #e903ca41);
+}
+.project-info h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #0593ac;
+}
+.project-info p {
+  color: #555;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+.project-link {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  background: #bf007f;
+  color: #fff;
+  border-radius: 360px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+.project-link:hover {
+  background: #035185;
+  color: #d9ff00;
+  transform: scale(1.08);
+  box-shadow: 0 0 20px #0aee8f;
+}
+
+.neo-root {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(180deg, #383636 60%, #e903ca41 100%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  color: #181818;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.neo-hero {
+  width: 100%;
+  padding: 1rem 0 1.5rem 0;
+  border-bottom: 2px solid #ff058f57;
+  text-align: center;
+  background: linear-gradient(180deg, #e903ca41 60%, #383636 100%);
+}
+.neo-title {
+  font-size: 2.8rem;
+  font-weight: 900;
+  letter-spacing: -2px;
+  margin-bottom: 0.1rem;
+  margin-top: 0.1rem;
+  color: #ffffff;
+  text-shadow: #c403ff 2px 2px 10px;
+}
+.neo-subtitle {
+  font-size: 1.2rem;
+  color: #f5f5f5;
+  margin-bottom: 1.2rem;
+}
+.neo-location {
+  background: #940257;
+  color: #daf107;
+  border-radius: 360px;
+  padding: 0.1em 0.7em;
+  margin-left: 0.5em;
+  font-size: 0.95em;
+  text-align: center;
+}
+.neo-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.neo-socials a {
+  color: #f10a999d;
+  transition: color 0.2s, transform 0.2s;
+  text-shadow: 0 0 5px #52023a;
+}
+.neo-socials a:hover {
+  color: #66bf00;
+  transform: scale(1.15);
+  text-shadow: 0 0 10px #0aee4f;
+}
+.neo-bento {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1100px;
+  margin: 3rem 0 2rem 0;
+  padding: 0 1rem;
+}
+.neo-logo{
+  width: 90px;
+  height: 90px;
+  margin-bottom: 1rem;
+  align-self: auto;
+}
+.neo-logo:hover{
+  transition: transform 0.3s;
+  transform: perspective(500px) rotateY(30deg) scale(1.3);
+  box-shadow: inset 0 0 10px #fc038c;
+  border-radius: 360px;
+  margin-top: 10px;
+}
+.bento-item {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px 0 #0001, 0 1.5px 0 #e0e0e0;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100px;
+  border: 2.5px dashed #e0e0e0;
+  transition: box-shadow 0.2s, border 0.2s, transform 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+.bento-item:hover {
+  box-shadow: 0 8px 32px 0 #00bfae22, 0 1.5px 0 #e0e0e0;
+  border: 2.5px solid #00bfae;
+  transform: translateY(-4px) scale(1.03) rotate(-1deg);
+}
+.bento-item h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  color: #bf007f;
+}
+.bento-item ul {
+  margin: 0;
+  padding-left: 1.2em;
+  color: #333;
+
+}
+.bento-item li {
+  margin-bottom: 0.3em;
+  font-size: 1em;
+}
+.bento-item p {
+  font-size: smaller;
+}
+.bento-item.about {
+  background: linear-gradient(120deg, #f5e2f5 70%, #fff 100%);
+  border-left: 6px solid #bf0096;
+}
+.bento-item.about:hover{
+  box-shadow: 0 0 20px #ee0adb;
+}
+.bento-item.anti-design {
+  background: repeating-linear-gradient(135deg, #fff, #fff 20px, #f7f7f7 20px, #f7f7f7 40px);
+  border-right: 6px solid #078fe9;
+}
+.bento-item.agentic {
+  border-top: 6px solid #db7909;
+}
+.bento-item.interactivity {
+  border-bottom: 6px solid #0aee4f;
+}
+.bento-item.tech {
+  border-radius: 1.2rem;
+  background: linear-gradient(240deg, #f5e2f5 60%, #fff 100%);
+  border-bottom: 6px solid #a4b605;
+}
+.bento-item.tech:hover{
+  box-shadow: 0 0 10px #d7ee0a;
+}
+.neo-chatbud {
+  margin: 1.5rem 0 3rem 0;
+  width: 100%;
+  max-width: fit-content;
+  height: 100%;
+  max-height: fit-content;
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px 0 #0001;
+  padding: 0.5rem 0.5rem;
+  text-align: left;
+  border: 2.5px dashed #e0e0e0;
+}
+.neo-chatbud h2 {
+  color: #f0ba09;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.chatbud-placeholder {
+  color: #888;
+  font-style: italic;
+  font-size: 1rem;
+  padding: 0.5em 0;
+  margin: auto;
+  max-height: 150px;
+}
+.neo-chatbud:hover {
+  box-shadow:0 0 20px #f8773c;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.neo-footer {
+  margin-top: auto;
+  width: 100%;
+  padding: 1.rem 0 0.75rem 0;
+  background: #181818;
+  color: #97f106af;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 1.2rem 1.2rem 0 0;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 700px) {
+  .neo-bento {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .neo-hero {
+    padding: 2rem 0.5rem 1.2rem 0.5rem;
+  }
+  .neo-title {
+    font-size: 2rem;
+  }
+}
