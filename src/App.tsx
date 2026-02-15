@@ -11,7 +11,7 @@ function App() {
         <h2 className="neo-subtitle">Modern. Interactive. Intelligent.</h2>
         <div className="neo-socials">
           <a href="mailto:neogenwebdesign@gmail.com?subject=Inquiry&amp;body=Hello%2C%0A%0AI%20am%20interested%20in%20collaborating%20or%20would%20like%20to%20make%20contact%20regarding%20a%20website.%0A%0AThanks.%0A" title="Email"><span role="img" aria-label="email">Email</span></a>
-          <a href="https://wa.me/27828283843" title="WhatsApp" target="_blank" rel="noopener"><span role="img" aria-label="whatsapp">WhatsApp</span></a>
+          <a href="https://wa.me/27714752704" title="WhatsApp" target="_blank" rel="noopener"><span role="img" aria-label="whatsapp">WhatsApp</span></a>
         </div>
       </header>
 
